@@ -32,6 +32,9 @@ def createBricks(rows, cols):
             bricks.append(rect)
     return bricks
 
+def construir_muro():
+    return "Muro construido exitosamente"
+
 # ==============================
 # 3. Lógica Principal del Juego
 # ==============================
