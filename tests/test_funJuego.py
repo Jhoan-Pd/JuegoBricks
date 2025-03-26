@@ -1,5 +1,6 @@
-import pytest
-from src.funJuego import *  # Importa el módulo desde el paquete src
+from src.funJuego import calcular_puntaje
 
-def test_placeholder():
-    assert True  # TODO: Reemplazar con pruebas reales
+def test_calcular_puntaje():
+    assert calcular_puntaje(5, 2) == 10
+    assert calcular_puntaje(0, 10) == 0
+    assert calcular_puntaje(3, 3) == 9
